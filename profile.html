@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lens Loom | Profile</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <img class="brand-img" src="assets/img/logo.png" alt="logo" />
+        <form class="search-form" action="search.html">
+          <input type="text" class="search-box" placeholder="search.." />
+        </form>
+        <div class="nav-items">
+          <a href="login.html"><i class="icon fas fa-power-off"></i></a>
+          <a href="index.html"><i class="icon fas fa-home"></i></a>
+          <a href="upload.html"><i class="icon fas fa-plus"></i></a>
+          <a href="discover.html"><i class="icon fas fa-heart"></i></a>
+          <div class="icon user-profile">
+            <a href="profile.html"><i class="fas fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="profile-header">
+      <div class="profile-container">
+        <div class="profile">
+          <div class="profile-image">
+            <img src="assets/img/lori.png" alt="profile-pic" />
+          </div>
+          <div class="profile-user-settings">
+            <h1 class="profile-user-name">Username</h1>
+            <a href="editProfile.html"
+              ><button class="profile-btn profile-edit-btn">
+                Edit Profile
+              </button></a
+            >
+          </div>
+          <div class="profile-stats">
+            <ul>
+              <li><span class="profile-stat-count">180</span> posts</li>
+              <li><span class="profile-stat-count">2077</span> followers</li>
+              <li><span class="profile-stat-count">121</span> following</li>
+            </ul>
+          </div>
+          <div class="profile-bio">
+            <p>Bio Placeholder</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="profile-container">
+        <h5 class="profile-user-name">User's posts</h5>
+        <br />
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="assets/img/anca-gabriela.jpg"
+              class="gallery-image"
+              alt="post"
+            />
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="hide-gallery-element">Likes:</span>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="hide-gallery-element">Comments:</span>
+                  <i class="fas fa-comment"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="assets/img/david-becker.jpg"
+              class="gallery-image"
+              alt="post"
+            />
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="hide-gallery-element">Likes:</span>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="hide-gallery-element">Comments:</span>
+                  <i class="fas fa-comment"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="assets/img/levi-arnold.jpg"
+              class="gallery-image"
+              alt="post"
+            />
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="hide-gallery-element">Likes:</span>
+                  <i class="fas fa-heart"></i>
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="hide-gallery-element">Comments:</span>
+                  <i class="fas fa-comment"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- script -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

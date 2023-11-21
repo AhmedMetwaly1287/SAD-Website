@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lens Loom | Login</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <div class="main-content">
+          <div class="form-container">
+            <div class="form-content box">
+              <div class="logo">
+                <img src="assets/img/logo.png" alt="logo" class="logo-img" />
+              </div>
+              <form
+                action="index.html"
+                class="login-form"
+                id="login-form"
+                method="post"
+              >
+                <p class="text-center alert-danger" id="error_message"></p>
+                <div class="form-group">
+                  <div class="login-input">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Type your email..."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="login-input">
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder="Type your password..."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="btn-group">
+                  <a class="login-btn" href="index.html"
+                    ><button class="login-btn" id="login_btn" type="submit">
+                      Log In
+                    </button></a
+                  >
+                </div>
+              </form>
+              <div class="or">
+                <hr />
+                <span>OR</span>
+                <hr />
+              </div>
+
+              <div class="goto">
+                <p class="">
+                  Don't have an account? <a href="signup.html">Sign Up</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+
+    <script src="assets/js/login.js"></script>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

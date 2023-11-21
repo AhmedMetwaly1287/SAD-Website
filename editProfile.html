@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LensLoom | Updating Profile</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+  </head>
+
+  <body>
+    <!-- navigation -->
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <img class="brand-img" src="assets/img/logo.png" alt="logo" />
+        <div class="nav-items">
+          <a href="login.html"><i class="icon fas fa-power-off"></i></a>
+          <a href="index.html"><i class="icon fas fa-home"></i></a>
+          <a href="upload.html"><i class="icon fas fa-plus"></i></a>
+          <a href="discover.html"><i class="icon fas fa-heart"></i></a>
+          <div class="icon user-profile">
+            <a href="profile.html"><i class="fas fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section -->
+    <section class="main">
+      <div class="wrapper">
+        <div class="left-col">
+          <h3 id="update-profile-header">Update Profile</h3>
+
+          <form action="">
+            <div class="mb-3">
+              <img
+                src="assets/img/lori.png"
+                class="edit-profile-image"
+                alt=""
+              />
+
+              <p>Pick your new profile picture</p>
+              <input type="file" name="image" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Insert the new email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input
+                type="text"
+                class="form-control"
+                name="username"
+                id="username"
+                placeholder="Insert the new username"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="bio" class="form-label">Bio</label>
+              <textarea
+                name="bio"
+                id="bio"
+                class="form-control"
+                cols="25"
+                rows="2"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="newpass" class="form-label">New password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="newpass"
+                id="newpass"
+                placeholder="Insert the new password"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="currpass" class="form-label">Current Password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="currpass"
+                id="currpass"
+                placeholder="Insert the current password to save changes"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                name="update_profile_btn"
+                id="update_profile_btn"
+                class="update-profile-btn"
+                value="update"
+                type="button"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="right-col">
+          <!--profile-card-->
+
+          <div class="profile-card">
+            <div class="profile-pic">
+              <img src="assets/img/lori.png" alt="profile-pic" />
+            </div>
+            <div>
+              <p class="username"><strong>Username</strong></p>
+            </div>
+          </div>
+
+          <!--suggestion-card-->
+
+          <p class="suggestion-text">Suggested For You</p>
+
+          <div class="suggestion-card">
+            <div class="suggestion-pic">
+              <img src="assets/img/user.jpg" alt="profile-pic" />
+            </div>
+            <div>
+              <a href="otherProfile.html"
+                ><p class="username"><strong>Other User</strong></p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- script -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

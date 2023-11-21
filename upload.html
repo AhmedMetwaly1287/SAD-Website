@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lens Loom | Add a post</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar">
+      <div class="nav-wrapper">
+        <img class="brand-img" src="assets/img/logo.png" alt="logo" />
+        <div class="nav-items">
+          <a href="login.html"><i class="icon fas fa-power-off"></i></a>
+          <a href="index.html"><i class="icon fas fa-home"></i></a>
+          <a href="upload.html"><i class="icon fas fa-plus"></i></a>
+          <a href="discover.html"><i class="icon fas fa-heart"></i></a>
+          <div class="icon user-profile">
+            <a href="profile.html"><i class="fas fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="camera-container">
+      <div class="camera">
+        <div class="camera-image">
+          <form action="index.html" class="camera-form">
+            <div class="form-group">
+              <input type="file" name="picture" class="form-control" />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="caption"
+                class="form-control"
+                placeholder="Type caption.."
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="hashtags"
+                class="form-control"
+                placeholder="Type hashtags.."
+              />
+            </div>
+            <div class="form-group">
+              <button type="submit" name="upload-image-btn" class="upload-btn">
+                Post
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
