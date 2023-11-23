@@ -12,6 +12,10 @@ function verifyForm() {
         error_message.innerHTML = "Passwords don't match";
         return false;
     }
+     if (username === password) {
+        error_message.innerHTML = "Username can't be the same as the password";
+        return false;
+    }
 
     window.location.href = "index.html";
     return true;
