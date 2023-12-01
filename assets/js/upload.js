@@ -6,12 +6,12 @@ function validateFile() {
         errMsg.innerHTML = 'Please select a file to be uploaded!';
         return;
     }
-    let allowedFormats = ['jpg', 'jpeg', 'png', 'gif', 'mp4', 'avi', 'mov', 'mkv'];
+    let allowedFormats = ['jpg', 'jpeg', 'png', 'gif', 'mp4', 'avi', 'mov', 'mkv','webp','webm'];
     let fileExt = file.name.split('.').pop().toLowerCase();
     if (!allowedFormats.includes(fileExt)) {
         errMsg.innerHTML = 'Invalid Media file format';
         return;
     }
-    alert("Media File Format is valid");
+    alert("Post uploaded successfully!");
     window.location.href = "index.html";
 }
