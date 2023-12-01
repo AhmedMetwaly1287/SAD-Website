@@ -14,6 +14,8 @@ function validateProfileForm() {
     else if (newPass.length < 6) {
         errMsg.innerHTML = 'New password cannot be less than 6 alpha-numeric characters';
     }
+    else{
     alert("Changes Saved Successfully!");
     window.location.href = "profile.html";
+    }
 }
